@@ -1,11 +1,11 @@
 import java.util.Scanner;
 class Code
 {
-int j=0;
+int j=1;
 public string names(String name)
 {
-System.out.println(j +"."name);
-j+=1;
+System.out.println(j +"."+name);
+j=j+1;
 }
 }
 class CreationOfObjects
@@ -16,7 +16,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter strength of class :");
 int s=sc.nextInt() ;
 
-for(int i=i;i<=s;i++)
+for(int i=1;i<=s;i++)
 {
    System.out.println("rollno :"+i);
 String name=sc.nextLine() ;                        
