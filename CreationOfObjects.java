@@ -1,9 +1,9 @@
 import java.util.Scanner;
 class Code
 {
-public void names(String name,int i)
+public void names(String name,int k)
 {
-System.out.println(i +"."+name);
+System.out.println(k +"."+name);
 }
 }
 class CreationOfObjects
