@@ -14,8 +14,7 @@ Scanner sc=new Scanner(System.in);
 System.out.println("Enter strength of class :");
 int s=sc.nextInt() ;
 int i;
-
-for( i=1;i<=s;i++)
+for(int i=1;i<=s;i++)
 {
    System.out.println("rollno :"+i);
 String name=sc.nextLine() ;                        
